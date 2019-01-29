@@ -1,4 +1,4 @@
-package com.thread.basic02.day05_phaser;
+package com.thread.basic02.day05_phaser01;
 
 import java.util.concurrent.Phaser;
 
