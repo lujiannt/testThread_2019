@@ -18,7 +18,7 @@ public class Main {
 
         //创建所有线程执行完后，最终执行的线程
         Last last = new Last(matrixMox, result, searchNumber);
-        //构造线程等待,参数1：等待的线程数  参数2：等待的线程执行完后要执行的线程
+        //构造线程等待辅助类,参数1：等待的线程数  参数2：等待的线程执行完后要执行的线程
         CyclicBarrier cyclicBarrier = new CyclicBarrier(5, last);
 
         for (int i = 0; i < 5; i++) {
