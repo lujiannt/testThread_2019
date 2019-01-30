@@ -1,4 +1,4 @@
-package com.thread.basic02;
+package com.thread;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
