@@ -1,4 +1,4 @@
-package com.thread.basic03.day05_callable03;
+package com.thread.basic03.day05_invokeAny;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +36,7 @@ public class Main {
                 }
             }
             System.out.printf("%s result is %s", Thread.currentThread().getName(), result);
+            executor.shutdown();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {

@@ -46,5 +46,7 @@ public class Main {
                 e.printStackTrace();
             }
         }
+
+        executor.shutdown();
     }
 }

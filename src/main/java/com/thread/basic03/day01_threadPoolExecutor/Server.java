@@ -26,5 +26,6 @@ public class Server {
         }
         //线程池中已完成的线程数
         System.out.println("线程池中已完成的线程数 : " + executor.getCompletedTaskCount());
+        executor.shutdown();
     }
 }

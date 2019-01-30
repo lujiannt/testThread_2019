@@ -8,5 +8,7 @@ public class Main {
             Task task = new Task();
             server.executeTask(task);
         }
+
+        server.shutDown();
     }
 }
