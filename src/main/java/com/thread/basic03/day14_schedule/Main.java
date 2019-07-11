@@ -15,7 +15,6 @@ public class Main {
             }
         }, 3, TimeUnit.SECONDS);
 
-
         ScheduledFuture<Integer> future = service.schedule(new Callable<Integer>() {
             @Override
             public Integer call() {
